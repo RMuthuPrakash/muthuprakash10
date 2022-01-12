@@ -11,6 +11,10 @@ public class Desktop implements HardWare,SoftWare{
 		System.out.println("Windows 10");
 		
 	}
+	@Override
+	public void softWareUpdates() {
+		System.out.println("updates new version");
+	}
 	public static void main(String[] args) {
 		Desktop d =new Desktop();
 		d.hardWareResources();
